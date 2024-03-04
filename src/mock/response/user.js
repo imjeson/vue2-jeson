@@ -4,8 +4,8 @@ const Random = Mock.Random
 
 export const getUserInfo = (options) => {
   const template = {
-    'str|2-4': 'lison',
-    'name|5': 'lison',
+    'str|2-4': 'Jeson',
+    'name|5': 'Jeson',
     'age|+2': 18,
     'num|4-10': 0,
     'float|3-10.2-5': 0,

@@ -3,7 +3,6 @@
     <Upload ref="upload" :action="`${baseURL}/upload_file`" multiple :before-upload="beforeUpload" :on-success="handleSuccess" :show-upload-list="false">
       <Button icon="ios-cloud-upload-outline">Upload Files</Button>
     </Upload>
-    <Button @click="handleUpload">上传吧</Button>
     <Table :columns="columns" :data="fileList"></Table>
     <Modal v-model="showModal">
       <div style="height: 300px; overflow: auto">
@@ -59,10 +58,7 @@ export default {
   methods: {
     beforeUpload (file) {
       this.file = file
-      return false
-    },
-    handleUpload () {
-      this.$refs.upload.post(this.file)
+      // return false
     },
     handleSuccess () {
       this.$Message.success('文件上传成功')

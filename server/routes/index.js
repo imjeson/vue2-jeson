@@ -10,7 +10,7 @@ router.post('/getUserInfo', function(req, res, next) {
   res.status(200).send({
     code: 200,
     data: {
-      name: 'Lison'
+      name: 'Jeson'
     }
   })
 });

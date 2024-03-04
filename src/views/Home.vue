@@ -67,7 +67,7 @@ export default {
         this.$router.push({
           name: `argu`,
           params: {
-            name: 'lison'
+            name: 'Jeson'
           }
         })
       } else if (type === 'replace') {

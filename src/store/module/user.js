@@ -2,7 +2,7 @@ import { login, authorization } from '@/api/user'
 import { setToken } from '@/lib/util'
 
 const state = {
-  userName: 'Lison'
+  userName: 'Jeson'
 }
 const getters = {
   firstLetter: (state) => {

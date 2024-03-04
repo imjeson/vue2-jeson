@@ -16,7 +16,7 @@ const handleClick = event => {
   event.stopPropagation()
 }
 
-let list = [{name: 'lison'}, {name: 'lili'}]
+let list = [{name: 'jeson'}, {name: 'lili'}]
 const getLiEleArr = (h) => {
   return list.map((item, index) => h('li', {
     on: {

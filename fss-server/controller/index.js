@@ -35,6 +35,7 @@ module.exports = {
 	},
 	// 上传文件
 	async uploadFile (req, res) {
+		console.log('test')
 		let fileSaveRes = {}
 		try {
 			fileSaveRes = await saveFile(req)

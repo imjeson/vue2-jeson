@@ -9,7 +9,7 @@ export default {
   props: {
     name: {
       type: String,
-      default: 'lison'
+      default: 'Jeson'
     }
   },
   beforeRouteEnter (to, from, next) {
